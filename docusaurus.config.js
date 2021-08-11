@@ -6,7 +6,7 @@ module.exports = {
   title: 'Remote Sensing Documentation',
   tagline: 'Remote sensing and mapping with the Google Earth Engine',
   url: 'https://LozAnalytics.github.io',
-  baseUrl: '/remote-sensing/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
