@@ -13,10 +13,10 @@ var extrema = collection.reduce(ee.Reducer.minMax());
 
 If you print `extrema` in the console, you can see that the result is 32 separate 'bands', which represents the minimum and maximum value for all 16 bands in the Sentinel data. In the screenshot below, you can expand the first 'band', which identifies the attributes of the minimum value of Band 1. 
 
-![Screen Shot 2021-08-21 at 2.34.40 PM](/Users/ozzycampos/OneDrive/03_Projects/01_RemoteSensing/05_GoogleEarthEngine/Lab 01/im3.png)
+![Screen Shot 2021-08-21 at 2.34.40 PM](./im3.png)
 
 There are hundreds of different operations for using Reducer, with the functions listed on the left hand table under 'Docs'. Certain functions will only work with specific object types, but follow along with the Reducer [documentation](https://developers.google.com/earth-engine/guides/reducers_intro) to get a better understanding of how to aggregate data and extract meaningful results. Getting familiar with Reducer is an essential component to working with Google Earth Engine. 
 
-![Screen Shot 2021-08-21 at 2.31.01 PM](/Users/ozzycampos/OneDrive/03_Projects/01_RemoteSensing/05_GoogleEarthEngine/Lab 01/im4.png)
+![Screen Shot 2021-08-21 at 2.31.01 PM](./im4.png)
 
 ## 

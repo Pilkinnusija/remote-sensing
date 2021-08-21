@@ -34,6 +34,6 @@ print(fromList);
 
 If you take this code block and run it in Google Earth Engine, you can see the information that is contained within the FeatureCollection, which has three elements (Features) and two columns (the `index` and the `properties`). By clicking on the dropdown next to each one, you can see that the first feature is a Polygon that has the name of 'Voronoi'.
 
-![Screen Shot 2021-08-21 at 1.19.21 PM](/Users/ozzycampos/OneDrive/03_Projects/01_RemoteSensing/05_GoogleEarthEngine/Lab 01/im2.png)
+![Screen Shot 2021-08-21 at 1.19.21 PM](./im2.png)
 
 Once you have information in a Feature Collection, you can filter it to find specific information, such as the name of an object or based on the size of a polygon, or provide aggregated analysis. The [documentation](https://developers.google.com/earth-engine/guides/features) on working with Feature Collections  is comprehensive, and provides many ideas on how to use them efficiently in in your analysis. 
