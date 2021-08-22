@@ -13,7 +13,7 @@
 
 Additionally, each image has a set of metadata stored as a set of properties. You are able to create images from constants, lists or other objects. In the code editor 'docs', you'll find numerous processes you can apply to images. 
 
-Ensure that you do not confuse an individual image with an image collection, which is a set of images grouped together, most often as a time series. For those familiar with remote sensing terminology, this is the same thing as a `stack`.
+Do not confuse an individual image with an image collection, which is a set of images grouped together, most often as a time series. For those familiar with remote sensing terminology, this is the same thing as a `stack`.
 
 #### Image Collection
 
@@ -48,7 +48,7 @@ Map.addLayer(first, {bands: ['B4', 'B3', 'B2'], min: 0, max: 2000}, 'first');
 
 #### Sensed versus Derived Imagery
 
-One additional note: GEE providesa rich suite of datasets, and while many of them are traditional sensed imagery, others are derived datasets. For instance, the *Global Map of Oil Palm Plantations* [dataset](https://developers.google.com/earth-engine/datasets/catalog/BIOPAMA_GlobalOilPalm_v1) provides is derived from analysis on the Sentinel composite imagery. If you look at the 'Bands', there are only three values, which refer to categories of palm plantations. Datasets such as these will have different methods for visualizing the data or working as a mosaic.
+One additional note: GEE provides a rich suite of datasets and while many of them are traditional sensed imagery, others are derived datasets. For instance, the *Global Map of Oil Palm Plantations* [dataset](https://developers.google.com/earth-engine/datasets/catalog/BIOPAMA_GlobalOilPalm_v1) provides data derived from analysis on the Sentinel composite imagery. If you look at the 'Bands', there are only three values, which refer to categories of palm plantations. Datasets such as these will have different methods for visualizing the data or working as a mosaic.
 
 
 
