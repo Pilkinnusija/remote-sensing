@@ -29,7 +29,7 @@ Google Earth Engine allows you to work with your own data. You are able to impor
 
 ## Understanding Google Earth Engine
 
-It is important to understand the basics of how Google Earth Engine works. The Developer's [overview](https://developers.google.com/earth-engine/guides/concepts_overview) provides much more detail on the intricacies of how GEE processes data on the Google Cloud Platform, but in the simplest terms, there are two sides to the process - the `client` side and `server` side. When you open your web browser and begin to work in the code editor, that is considered the `client` side. You can write JavaScript code in the editor and the code will be processed within your browser. The code below simply creates a variables `x` and `y`, adds them together as the variable `z` and prints the result, which shows up in the console of the code editor. Even though the code is written in the GEE editor, it plays no role in the execution of this code - your browser executes it. 
+It is important to understand the basics of how Google Earth Engine works. The Developer's [overview](https://developers.google.com/earth-engine/guides/concepts_overview) provides much more detail on the intricacies of how GEE processes data on the Google Cloud Platform, but in the simplest terms, there are two sides to the process - the `client` side and `server` side. When you open your web browser and begin to work in the code editor, that is considered the `client` side. You can write JavaScript code in the editor and the code will be processed within your browser. The code below simply creates variables `x` and `y`, adds them together as the variable `z` and prints the result, which shows up in the console of the code editor. Even though the code is written in the GEE editor, it plays no role in the execution of this code - your browser executes it. 
 
 ```javascript
 var x = 1; var y = 2;
@@ -43,7 +43,7 @@ To begin using GEE effectively, we have to tell GEE what we need it to do. Let's
 var sentinelCollection = ee.ImageCollection('COPERNICUS/S2_SR');
 ```
 
-Over time, you will gain experience understanding the role of working with JavaScript on the `client` side and the `server` side, but the main point in this section is that when programming, we will be building 'packages' that explicitly define what we need GEE to do.
+Over time, you will gain experience understanding the roles in working with JavaScript on the `client` side and the `server` side, but the main point in this section is that when programming, we will be building 'packages' that explicitly define what we need GEE to do.
 
 An extension of this topic is listed [here](https://developers.google.com/earth-engine/guides/client_server), along with discussions of programming specific topics (ie, mapping instead of looping). 
 
